@@ -1,0 +1,60 @@
+$FamilyFra: 'Fraunces', serif;
+$FamilyBarlow: 'Barlow', sans-serif;
+$DarkDesaturatedCyan: hsl(167, 95%, 23%);
+$danger: hsl(354, 76%, 50%);
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    background-image: url(/Image/brown-clip-in-hair-extension\,-classic-hairstyle.jpg);
+    .container{
+        width: 100%;
+        background-image: url(/Image/messy\ ban\ hairstyle\,\ brown\ clip\ in\ hair\ extension.jpg);
+        padding: 10%;
+        .row{
+            border-radius: 5px;
+            padding: 5%;
+            .left{
+                padding: 10px;
+                justify-content: center;
+                img{
+                    margin-left: auto;
+                    position: relative;
+                    margin-bottom: 8%;
+                    margin-top: 5%;
+                }
+                h3{
+                    font-family: $FamilyBarlow;
+                    text-transform: uppercase;
+                    color: $danger;
+                    span{
+                        color: $DarkDesaturatedCyan;
+                        text-decoration: wavy;
+                    }
+                }
+            }
+            .right{
+                padding: 10%; 
+                input{
+                    width: 100%;
+                }
+                button{
+                    width: 30%;
+                    border-radius: 5px;
+                    background-color: $danger;
+                    a{
+                        text-decoration: none;
+                        padding: 3px;
+                        color: white;
+                    }
+                }
+            }
+        }
+        }
+        
+}
+

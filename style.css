@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  display: flex;
+}
+
+ul {
+  padding: 0 5px;
+}
+
+li {
+  font-size: 1.2em;
+}
+
+li:hover {
+  -webkit-text-decoration: underline solid hsl(354, 76%, 50%);
+          text-decoration: underline solid hsl(354, 76%, 50%);
+}
+
+.da {
+  position: relative;
+  width: 100%;
+}
+.da h1 {
+  text-align: center;
+  font-family: "Fraunces", serif;
+  font-weight: bolder;
+  font-size: 2.7rem;
+}
+.da h1 span {
+  color: hsl(354, 76%, 50%);
+  font-family: "Barlow", sans-serif;
+  font-weight: bolder;
+  font-size: 3.5rem;
+}
+
+.adv {
+  position: relative;
+  background-color: hsl(0, 0%, 100%);
+  width: 100%;
+}
+.adv .left {
+  border-radius: 10px;
+  margin-top: 10%;
+  margin-left: 2%;
+  float: left;
+  position: relative;
+  background-color: hsla(7, 99%, 70%, 0.2);
+  padding-left: 15px;
+  padding: 2%;
+}
+.adv .left h3 {
+  font-family: "Fraunces", serif;
+  color: hsl(167, 95%, 23%);
+  padding: 10px;
+  font-size: 2.5rem;
+}
+.adv .left p {
+  color: hsl(167, 95%, 23%);
+  padding-left: 15px;
+  font-family: "Barlow", sans-serif;
+  font-weight: lighter;
+  margin-top: 20px;
+}
+.adv .left bottom {
+  background-color: hsl(167, 95%, 23%);
+  padding-left: 15px;
+}
+.adv .right {
+  position: relative;
+  display: inline;
+  width: 100%;
+}
+.adv .right img {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.items {
+  width: 100%;
+  position: relative;
+}
+.items .row h3 {
+  text-align: center;
+  font-family: "Fraunces", serif;
+  font-weight: bolder;
+  font-size: 2.7rem;
+  color: hsl(354, 76%, 50%);
+  margin-top: 20px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+.items .row .products {
+  padding: 30px;
+}
+.items .row img {
+  padding: 2% 15%;
+}
+.items .row img:hover {
+  width: 102%;
+}
+.items .row .products:hover {
+  background-color: hsla(7, 99%, 70%, 0.2);
+}
+.items .row h4 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Fraunces", serif;
+}
+.items .row p {
+  padding: 0 15%;
+  text-align: center;
+}
+.items .row button {
+  border-radius: 10px;
+  background-color: hsl(354, 76%, 50%);
+  margin-left: 35%;
+  padding: O 7px;
+}
+.items .row button img {
+  position: relative;
+  width: 30px;
+  padding: 8px 3px;
+  margin-left: 5px;
+}
+.items .row button a {
+  position: relative;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  font-size: larger;
+}
+
+.footer {
+  background-color: hsl(354, 76%, 50%);
+  text-align: center;
+  padding: 10px 0;
+}
+.footer h3 {
+  font-family: "Barlow", sans-serif;
+  font-weight: bolder;
+  font-size: 2rem;
+  color: hsl(0, 0%, 100%);
+}
+.footer .flexli {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.footer .flexli p {
+  margin: 5px;
+}
+.footer .flexli .contact img {
+  padding: 0;
+}/*# sourceMappingURL=style.css.map */

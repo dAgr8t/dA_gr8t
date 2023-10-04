@@ -1,0 +1,179 @@
+// ### Primary
+
+$Softred: hsl(7, 99%, 70%);
+$SoftredTrans: hsla(7, 99%, 70%, 20%);
+$Yellow: hsl(51, 100%, 49%);
+$DarkDesaturatedCyan: hsl(167, 95%, 23%);
+$DarkBlue: hsl(198, 62%, 26%);
+$DarkModerateCyan: hsl(168, 44%, 57%);
+$danger: hsl(354, 76%, 50%);
+
+// ### Neutral
+
+$VeryDarkDesaturatedBlue: hsl(212, 27%, 19%);
+$VeryDarkGrayishBlue: hsl(213, 9%, 39%);
+$DarkGrayishBlue: hsl(232, 10%, 55%);
+$GrayishBlue: hsl(210, 4%, 67%);
+$White: hsl(0, 0%, 100%);
+
+// ### Font
+
+$FamilyBarlow: 'Barlow', sans-serif;
+$FamilyFra: 'Fraunces', serif;
+
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+.nav-item{ 
+    display: flex;
+}
+ul{
+    padding: 0 5px;
+}
+li{
+    font-size: 1.2em;
+}
+li:hover{
+    text-decoration: underline solid $danger;
+}
+
+
+.da{
+    position: relative;
+    width: 100%;
+    h1{
+        text-align: center;
+        font-family: $FamilyFra;
+        font-weight: bolder;
+        font-size: 2.7rem;
+        span{
+            color: $danger;
+            font-family: $FamilyBarlow;
+            font-weight: bolder;
+            font-size: 3.5rem;
+        }
+    }
+}
+.adv{
+    position: relative;
+    background-color: $White;
+    width: 100%;
+    .left{
+        border-radius: 10px;
+        margin-top: 10%;
+        margin-left: 2%;
+        float: left;
+        position: relative;
+        background-color: $SoftredTrans;
+        padding-left: 15px;
+        padding: 2%;
+        h3{
+            font-family: $FamilyFra;
+            color: $DarkDesaturatedCyan;
+            padding: 10px;
+            font-size: 2.5rem;
+        }
+        p{
+            color: $DarkDesaturatedCyan;
+            padding-left: 15px;
+            font-family: $FamilyBarlow;
+            font-weight: lighter;
+            margin-top: 20px;
+        }
+        bottom{
+            background-color: $DarkDesaturatedCyan;
+            padding-left: 15px;
+        }
+    }
+    .right{
+        position: relative;
+        display: inline;
+        width: 100%;
+        img{
+            width: fit-content;
+        }
+    }
+}
+.items{
+    width: 100%;
+    position: relative;
+    
+    .row{
+        h3{
+            text-align: center;
+            font-family: $FamilyFra;
+            font-weight: bolder;
+            font-size: 2.7rem;
+            color: $danger;
+            margin-top: 20px;
+            padding: 5px;
+            text-transform: uppercase;
+        }
+        
+        .products{
+            padding: 30px;
+        }
+        img{
+            padding: 2% 15%;
+        }
+        img:hover{
+            width: 102%;
+        }
+        .products:hover{
+            background-color: $SoftredTrans;
+        }
+        h4{
+            text-transform: uppercase;
+            text-align: center;
+            font-family: $FamilyFra;
+        }
+        p{
+            padding: 0 15%;
+            text-align: center;
+        }
+        button{
+            border-radius: 10px;
+            background-color: $danger;
+            margin-left: 35%;
+            padding: O 7px;
+            img{
+                position: relative;
+                width: 30px;
+                padding: 8px 3px;
+                margin-left: 5px;
+            }
+            a{
+                position: relative;
+                color: $White;
+                text-decoration: none;
+                text-align: center;
+                padding: 10px;
+                font-size: larger;
+            }
+        }
+    }
+}
+.footer{
+    background-color: $danger;
+    text-align: center;
+    padding: 10px 0;
+    h3{
+        font-family: $FamilyBarlow;
+        font-weight: bolder;
+        font-size: 2rem;
+        color: $White;
+    }
+    .flexli{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        p{
+            margin: 5px;
+        }
+        .contact img {
+            padding: 0;
+        }
+    }
+}
